@@ -1,0 +1,33 @@
+@import url("https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css");
+
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.book-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+    padding: 20px 0;
+    margin: 50px 100px;
+    width: 400px;
+}
+
+.book-container img,
+.book-item img {
+    width: 100px;
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+}
+.error-container {
+    border: 1px solid red;
+    background-color: rgba(250, 95, 172, 0.5);
+    padding: 50px;
+    margin: 100px;
+}
